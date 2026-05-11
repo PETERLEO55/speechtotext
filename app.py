@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import os, re, json, tempfile
 from datetime import datetime as time
-# load_dotenv(r'C:\Users\peter.leo\OneDrive - Qatar Insurance Group\Documents\Projects\OCR\5-3-2026-azure+llm\.env')
 import streamlit as st
 from streamlit_mic_recorder import mic_recorder
 from google import genai
